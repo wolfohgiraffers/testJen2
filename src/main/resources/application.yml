@@ -2,4 +2,4 @@ server:
   port: 7777
 spring:
   application:
-    name: forJenkinsBoot
+    name: forJenkinsBoot1
