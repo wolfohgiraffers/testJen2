@@ -32,7 +32,7 @@ class CalculatorServiceTest {
     @MethodSource("providerStringSource")
     void testPlus(CalculatorDTO input) {
 
-        // when
+        // when 
         int expected = input.getNum1() + input.getNum2();
 
         // then
