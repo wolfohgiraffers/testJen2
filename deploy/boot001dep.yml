@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boot001dep
+spec:
+  selector:
+    matchLabels:
+      app: boot001kube
+  template:
+    metadata:
+      labels:
+        app: boot001kube
+    spec:
+      containers:
+      - name: boot-container
+        image: ys0915/test-pipe:v1.0.0
+        ports:
+        - containerPort: 7777
