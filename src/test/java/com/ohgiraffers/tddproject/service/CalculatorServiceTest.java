@@ -27,7 +27,7 @@ class CalculatorServiceTest {
         );
     }
 
-    @DisplayName("두 수의 합 구하기 테스트") 
+    @DisplayName("두 수의 합 구하기 테스트")  
     @ParameterizedTest
     @MethodSource("providerStringSource")
     void testPlus(CalculatorDTO input) {
